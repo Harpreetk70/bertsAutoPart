@@ -1,0 +1,654 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/assets/owl.carousel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+    <title>Bert's Auto parts</title>
+    <style>
+        .col-carousel {
+          margin: 70px 0;
+        }
+
+        /* owl nav */
+        .owl-prev span, .owl-next span {
+          color: #FFF;
+        }
+
+        .owl-prev span:hover, 
+        .owl-next span:hover {
+          color: #8199A3;
+        }
+
+        .owl-prev, .owl-next {
+          position: absolute;
+          top: 0;
+          height: 100%;
+        }
+
+        .owl-prev {
+          left: 7px;
+        }
+
+        .owl-next {
+          right: 7px;
+        }
+
+        /* removing blue outline from buttons */
+        button:focus, button:active {
+          outline: none;
+        }
+    </style>
+
+
+  </head>
+  <body>
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row p-2 back">
+                <div class="col-lg-6 col-sm-6 col-xs-12">
+                   <div class="outer-layer">
+                    <div class="dropdown show">
+                      <a class="language dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="assets/images/united-states 1.svg"> English
+                      </a>
+                    
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                    <div class="divider"><img src="assets/images/Rectangle 2.svg"></div>
+
+                    <div class="dropdown show px-2">
+                      <a class="language dropdown-toggle" href="#" role="button" id="dropdownMenuLink1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="assets/images/dollar-coin-circle-with-symbol 1.svg"> USD
+                      </a>
+                    
+                      <div class="dropdown-menu" aria-labelledby="dropdownMenuLink1">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                      </div>
+                    </div>
+                   </div>
+                </div>
+                <div class="col-lg-6 col-sm-6 col-xs-12">
+                    <div class="account text-right">
+                      <div class="dropdown show px-2">
+                        <a class="language dropdown-toggle" href="#" role="button" id="dropdownMenuLink12" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                          <img src="assets/images/account 1.svg"> My Account
+                        </a>
+                      
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink12">
+                          <a class="dropdown-item" href="login.html">Login</a>
+                          <a class="dropdown-item" href="signup.html">Sign Up</a>
+                         
+                        </div>
+                      </div>
+                    </div> 
+                </div>
+            </div>
+            <nav class="navbar navbar-expand-xl navbar-light bg-white">
+              <a class="navbar-brand" href="index.html"> <img src="assets/images/image 1 (1).svg"/></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              
+                <ul class="nav responsive w-100 d-flex justify-content-between align-items-center">
+                  <div class="search-bar">
+        
+                    <div class="search">
+                      <div class="dropdown show px-2 py-2">
+                        <a class=" dropdown-toggle categor" href="#" role="button" id="dropdownMenuLink12" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           All Categories
+                        </a>
+                      
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink12">
+                          <a class="dropdown-item" href="#">Action</a>
+                          <a class="dropdown-item" href="#">Another action</a>
+                          <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                      </div>
+                      <img src="assets/images/Rectangle 5.svg"/>
+                      <div class="type-text">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search Products Here..." aria-label="Search">
+                      </div>
+                      <div class="go">
+                        <img src="assets/images/Group 5.svg">
+                      </div>
+                    </div>
+                  </div>
+                  <li class="nav-item">
+                    <a href="" class=" d-flex align-items-center">
+                      <div class="location d-flex">
+                        <img src="assets/images/Group 6.svg">
+                        <div class="content">
+                          <p class="short">
+                            Deliver to :
+                          </p>
+                          <p class="loc">Carson 90746</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="" class="d-flex align-items-center">
+                      <div class="location d-flex">
+                        <img src="assets/images/Group 7.svg">
+                        <div class="content">
+                          <p class="short">
+                            Wishlist :
+                          </p>
+                          <p class="loc">0 Item</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="shopping-cart.html" class="d-flex align-items-center">
+                      <div class="location d-flex">
+                        <img src="assets/images/Group 8.svg">
+                        <div class="content">
+                          <p class="short">
+                            Cart :
+                          </p>
+                          <p class="loc">0 Item</p>
+                        </div>
+                      </div>
+                    </a>
+                  </li>
+                </ul>
+                
+                <ul class="nav-list-bar">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Accessories <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Engine/Fuel <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Powertrain/Chassis <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Body <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Electrical <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Suspension <span class="sr-only"></span></a>
+                  </li>
+                </ul>
+                
+
+              </div>
+            </nav>
+            <hr class="nav-hr"> 
+            <ul class=" nav-list-bar-full pt-2">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Accessories <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Engine/Fuel <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Powertrain/Chassis <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Body <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Electrical <span class="sr-only"></span></a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Suspension <span class="sr-only"></span></a>
+              </li>
+            </ul>
+            <hr class="nav-hr"> 
+            
+            <!-- <nav class="navbar navbar-expand-lg navbar-light">
+             
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="add-bar">
+                    <div class="location d-flex">
+                      <img src="assets/images/Group 6.svg">
+                      <div class="content">
+                        <p class="short">
+                          Deliver to :
+                        </p>
+                        <p class="loc">Carson 90746</p>
+                      </div>
+                    </div>
+                    <div class="location d-flex">
+                      <img src="assets/images/Group 7.svg">
+                      <div class="content">
+                        <p class="short">
+                          Wishlist :
+                        </p>
+                        <p class="loc">0 Item</p>
+                      </div>
+                    </div>
+                    <div class="location d-flex">
+                      <img src="assets/images/Group 8.svg">
+                      <div class="content">
+                        <p class="short">
+                          Cart :
+                        </p>
+                        <p class="loc">0 Item</p>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Accessories <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Engine/Fuel <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Powertrain/Chassis <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Body <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Electrical <span class="sr-only"></span></a>
+                  </li>
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Suspension <span class="sr-only"></span></a>
+                  </li>
+                </ul>
+              </div>
+            </nav>  -->
+        </div>
+      </header>
+    <section class="single-product">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="single-prod">
+                        <img class="first-prod" src="assets/images/single-prod.svg">
+                    </div>
+                    <div class="multiple d-flex">
+                        <div class="similar-prod">
+                            <img src="assets/images/small.svg">
+                        </div>
+                        <div class="similar-prod">
+                            <img src="assets/images/small.svg">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="prod-name">
+                        <h3>CARQUEST Oil & Fluids Extended Life 
+                            Antifreeze/Coolant (1 Gallon)</h3>
+                        
+                    </div>
+                    <div class="price">
+                        <h4>$14.99</h4>
+                        <p>In Stock</p>
+                    </div>
+                    <div class="cart">
+                        <button type="button" class="btn btn-primary">Add To Cart</button>
+                        <div class="fav">
+                            <img src="assets/images/heart-shape-1.svg">
+                        </div>
+                    </div>
+                    <hr class="prod-hr">
+                    <div class="description">
+                        <p class="head">Description :</p>
+                        <p class="desc">
+                            <span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                    </div>
+                    <hr class="prod-hr">
+                    <div class="quantity">
+                        <p>Quantity</p>
+                        <div class="countr">
+                                <button class="subtract">-</button>
+
+                                <input type="text" value="0" />
+
+                                <button class="add">+</button>
+                           
+                        </div>
+                    </div>
+                    <hr class="prod-hr">
+                    <div class="share">
+                        <div class="socila-media">
+                            <p>Share Now :</p>
+                            <div class="social">
+                                <img src="assets/images/fb.svg">
+                                <img src="assets/images/twtr.svg">
+                                <img src="assets/images/ytb.svg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="description">
+                        <p class="head">Details :</p>
+                        <p class="desc">
+                            <span>Lorem Ipsum</span> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                        </p>
+                        <p class="desc">
+                            It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.
+                        </p>
+                        <p class="desc">
+                            Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+                        </p>
+                    </div>
+                </div>
+            </div>
+           
+            
+        </div>
+    </section>
+    <section class="topsellers">
+      <div class="container">
+        <div class="row sellers mt-3">
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+           <div><h3 class="heading-parts">Other Parts that work for this vehicle</h3>
+             <img src="assets/images/botm-line.svg">
+           </div>
+          </div>
+         
+         </div>
+        <div class="row align-items-center">
+          <div class="col-12 col-carousel">
+            <div class="owl-carousel carousel-main prod-seller">
+              <div>
+                <a href="single-product.html">
+                  <div class="prod-outer">
+                    <div class="outliyn">
+                      <img src="assets/images/prod-1.svg">
+                      
+                      <p class="head">Carquest Oil & Fluids</p>
+                      <div class="ratings">
+                        <p class="pl-1">$14.99</p>
+                        <div class="text-right w-100 mt-2"><img src="assets/images/rating.svg"></div>
+                      </div>
+                      <button type="button" class="btn btn-light">Add to Cart</button>
+                    </div>
+                   
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="single-product.html">
+                  <div class="prod-outer">
+                    <div class="outliyn">
+                      <img src="assets/images/prod-1.svg">
+                      
+                      <p class="head">Carquest Oil & Fluids</p>
+                      <div class="ratings">
+                        <p class="pl-1">$14.99</p>
+                        <div class="text-right w-100 mt-2"><img src="assets/images/rating.svg"></div>
+                      </div>
+                      <button type="button" class="btn btn-light">Add to Cart</button>
+                    </div>
+                   
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="single-product.html">
+                  <div class="prod-outer">
+                    <div class="outliyn">
+                      <img src="assets/images/prod-1.svg">
+                      
+                      <p class="head">Carquest Oil & Fluids</p>
+                      <div class="ratings">
+                        <p class="pl-1">$14.99</pclass="pl-1">
+                        <div class="text-right w-100 mt-2"><img src="assets/images/rating.svg"></div>
+                      </div>
+                      <button type="button" class="btn btn-light">Add to Cart</button>
+                    </div>
+                   
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="single-product.html">
+                  <div class="prod-outer">
+                    <div class="outliyn">
+                      <img src="assets/images/prod-1.svg">
+                      
+                      <p class="head">Carquest Oil & Fluids</p>
+                      <div class="ratings">
+                        <p class="pl-1">$14.99</p>
+                        <div class="text-right w-100 mt-2"><img src="assets/images/rating.svg"></div>
+                      </div>
+                      <button type="button" class="btn btn-light">Add to Cart</button>
+                    </div>
+                   
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="single-product.html">
+                  <div class="prod-outer">
+                    <div class="outliyn">
+                      <img src="assets/images/prod-1.svg">
+                      
+                      <p class="head">Carquest Oil & Fluids</p>
+                      <div class="ratings">
+                        <p class="pl-1">$14.99</p>
+                        <div class="text-right w-100 mt-2"><img src="assets/images/rating.svg"></div>
+                      </div>
+                      <button type="button" class="btn btn-light">Add to Cart</button>
+                    </div>
+                   
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="single-product.html">
+                  <div class="prod-outer">
+                    <div class="outliyn">
+                      <img src="assets/images/prod-1.svg">
+                      
+                      <p class="head">Carquest Oil & Fluids</p>
+                      <div class="ratings">
+                        <p class="pl-1">$14.99</p>
+                        <div class="text-right w-100 mt-2"><img src="assets/images/rating.svg"></div>
+                      </div>
+                      <button type="button" class="btn btn-light">Add to Cart</button>
+                    </div>
+                   
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="single-product.html">
+                  <div class="prod-outer">
+                    <div class="outliyn">
+                      <img src="assets/images/prod-1.svg">
+                      
+                      <p class="head">Carquest Oil & Fluids</p>
+                      <div class="ratings">
+                        <p class="pl-1">$14.99</p>
+                        <div class="text-right w-100 mt-2"><img src="assets/images/rating.svg"></div>
+                      </div>
+                      <button type="button" class="btn btn-light">Add to Cart</button>
+                    </div>
+                   
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="single-product.html">
+                  <div class="prod-outer">
+                    <div class="outliyn">
+                      <img src="assets/images/prod-1.svg">
+                      
+                      <p class="head">Carquest Oil & Fluids</p>
+                      <div class="ratings">
+                        <p class="pl-1">$14.99</p>
+                        <div class="text-right w-100 mt-2"><img src="assets/images/rating.svg"></div>
+                      </div>
+                      <button type="button" class="btn btn-light">Add to Cart</button>
+                    </div>
+                   
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="single-product.html">
+                  <div class="prod-outer">
+                    <div class="outliyn">
+                      <img src="assets/images/prod-1.svg">
+                      
+                      <p class="head">Carquest Oil & Fluids</p>
+                      <div class="ratings">
+                        <p class="pl-1">$14.99</p>
+                        <div class="text-right w-100 mt-2"><img src="assets/images/rating.svg"></div>
+                      </div>
+                      <button type="button" class="btn btn-light">Add to Cart</button>
+                    </div>
+                   
+                  </div>
+                </a>
+              </div>  
+            </div>
+          </div>
+        </div>
+       
+         
+        <div class="row faq">
+         <div class="faq-question">
+          <h4>Have a question?</h4>
+          <p>Find answers in product info, Q&As, reviews</p>
+          <div class="input-group md-form form-sm form-1 pl-0">
+            <div class="input-group-prepend">
+              <span class="input-group-text purple lighten-3" id="basic-text1"><i class="fas fa-search text-white"
+                  aria-hidden="true"></i></span>
+            </div>
+            <input class="form-control my-0 py-1" type="text" placeholder="Type your question or keyword" aria-label="Search">
+            <img src="assets/images/eva_search-outline.svg">
+          </div>
+         </div>
+        </div>
+      </div>
+     </section>
+
+ <section class="footer-end">
+  <div class="container footer-link">
+    <div class="row">
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <h5>Shop Bert's Auto Parts</h5>
+        <div class="list">
+          <ul>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Engine/Fuel</a></li>
+            <li><a href="#">Powertrain/Chassis</a></li>
+            <li><a href="#">Body</a></li>
+            <li><a href="#">Electrical</a></li>
+            <li><a href="#">Suspension</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <h5>Customer Service</h5>
+        <div class="list">
+          <ul>
+            <li><a href="#">Contact Us</a></li>
+            <li><a href="#">Customer Data Form</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Car Care Tips</a></li>
+            <li><a href="#">Special Order</a></li>
+            <li><a href="forgot-password.html">Forgot Your Password</a></li>
+            <li><a href="signup.html">Sign up</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <h5>Company Information</h5>
+        <div class="list">
+          <ul>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Retail Stores Info</a></li>
+            <li><a href="#">News and Events</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms and Conditions</a></li>
+            <li><a href="#">Career Opportunities</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-lg-3 col-sm-6 col-xs-12">
+        <h5>WE'RE SOCIAL. CHECK US OUT ON</h5>
+        <div class="social-media d-flex">
+          <img src="assets/images/facebook-logo.svg">
+          <div class="facebook">
+            <a href="#">Facebook</a>
+          </div>
+        </div>
+        <div class="social-media d-flex">
+          <img src="assets/images/twitter.svg">
+          <div class="facebook">
+            <a href="#">Twitter</a>
+          </div>
+        </div>
+        <div class="social-media d-flex">
+          <img src="assets/images/youtube.svg">
+          <div class="facebook">
+            <a href="#">Youtube</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row logo-bottom">
+      <div class="col-lg-6 col-sm-12 col-xs-12">
+        <a href="index.html"><img src="assets/images/image 1 (1).png"></a> 
+      </div>
+      <div class="col-lg-6 col-sm-12 col-xs-12 text-right">
+        <form>
+          <div class="d-flex">
+            <div class="col p-0 d-flex">
+              <input type="text" class="form-control" placeholder="Enter your email address">
+              <button type="button" class="btn btn-primary">Subscribe</button>
+            </div>
+           
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+ </section>
+ <section class="copy-right">
+  <div class="content text-center">
+    <p class="mt-3">© Copyright 2012 - 2020. BERT'S AUTO PARTS LTD. All rights reserved.</p>
+  </div>
+ </section>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.1/owl.carousel.min.js"></script>
+    <script src="assets/javavscript.js"></script>
+   <script>
+     $('.carousel-main').owlCarousel({
+      items: 6,
+      loop: true,
+      autoplay: false,
+      autoplayTimeout: 1500,
+      margin: 10,
+      nav: true,
+      dots: false,
+      navText: ['<span class="fas fa-chevron-left fa-2x"></span>','<span class="fas fa-chevron-right fa-2x"></span>'],
+    })
+   </script>
+</body>
+</html>
