@@ -35,8 +35,7 @@ $header-color: #FFF41C;
 @import "../node_modules/bootstrap/scss/custom-forms";
 @import "../node_modules/bootstrap/scss/button-group";
 @import "../node_modules/bootstrap/scss/buttons";
-
-
+@import "../node_modules/bootstrap/scss/modal";
 .body{
     font-family: Arial;
 }
@@ -1764,17 +1763,7 @@ hr.after-filter {
 h3.heading-parts {
     font-size: 21px;
 }
-@media only screen and (max-width: 1024px){
-    .side-filters{
-        display: none;
-    }
-    .filters-prod{
-        width: 100%;
-    }
-    .grid-toggle{
-        display: inline;
-    }
-} 
+
 
 .owl-carousel .owl-item img {
     display: block;
@@ -1819,7 +1808,7 @@ h3.heading-parts {
     margin: 0;
 }
 .input-group.md-form.form-sm.form-1 {
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 }
 .input-group.md-form.form-sm.form-1.pl-0 img {
     position: absolute;
@@ -1830,3 +1819,76 @@ h3.heading-parts {
 .input-group.md-form.form-sm.form-1.pl-0 {
     position: relative;
 }
+.ques h5 {
+    font-size: 15px;
+}
+p.answer {
+    margin-bottom: 8px;
+}
+p.date-name {
+    color: #a0a0a0;
+    font-size: 14px;
+}
+.post-ans input{
+    border-radius: 4px 0px 0px 4px;
+    padding: 22px 20px;
+    background: #E3E7EC;
+}
+.post-ans button{
+    border-radius: 0 4px 4px 0px;
+    font-size: 14px;
+    padding: 11px 34px;
+}
+.post-ans button {
+    border-radius: 0 4px 4px 0px;
+    font-size: 13px;
+    padding: 0px 35px;
+    width: 46%;
+}
+.modal-header{
+    border: 0 !important;
+}
+.modal-footer{
+    border: 0 !important;
+}
+.pop-up .close{
+    background-color: transparent;
+    border: 0px;
+}
+.pop-up .close {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.pop-up h4 {
+    margin: 0 auto;
+}
+p.post-answ {
+    text-align: center;
+    font-size: 13px;
+    color: #969696;
+    padding: 0 30px;
+}
+.pop-up{
+    border: 0 !important;
+    font-size: 21px;
+    text-transform: uppercase;
+    padding-bottom: 6px;
+}
+.foot-post{
+    margin: 0 auto;
+    padding-bottom: 2rem;
+}
+.post-btn{
+    padding: 6px 28px;
+}
+@media only screen and (max-width: 1024px){
+    .side-filters{
+        display: none;
+    }
+    .filters-prod{
+        width: 100%;
+    }
+    .grid-toggle{
+        display: inline;
+    }
+} 
